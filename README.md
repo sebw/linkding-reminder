@@ -12,7 +12,7 @@ This container can be run from a cron job:
 docker run \
   -e LINKDING_URL=https://linkding.example.org \
   -e LINKDING_TOKEN=your_api_token \
-  -e LINKDING_TAG=remindme`date +%Y%m` \
+  -e LINKDING_TAG=remindme \
   -e SMTP_USERNAME=user@example.org \
   -e SMTP_SENDER=user@example.org \
   -e SMTP_RECIPIENT=recipient@example.org \
