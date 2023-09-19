@@ -45,9 +45,6 @@ async def remind() -> None:
 
     server = smtplib.SMTP(smtp_server + ":" + str(smtp_port))
     server.ehlo()
-    server.starttls()
-    server.ehlo()
-    server.login(smtp_sender, smtp_password)
     server.sendmail(smtp_sender,smtp_recipient,msg.as_string())
     server.quit()
 
