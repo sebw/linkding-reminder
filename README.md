@@ -32,5 +32,5 @@ For links that you don't want to get reminded again, edit the bookmark and just 
 ```
 git clone https://github.com/sebw/linkding-reminder.git
 cd linkding-reminder
-docker build -t shaarli-reminder:v0.0.1
+docker build -t linkding-reminder:v0.0.1
 ```
